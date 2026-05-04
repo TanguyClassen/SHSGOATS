@@ -312,10 +312,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -656.9999389648438,
-            "y": 390.5000305175781,
-            "width": 207.99993896484376,
-            "height": 277.9999694824219
+            "x": -656.888916015625,
+            "y": 392.44439697265627,
+            "width": 208.00003051757813,
+            "height": 277.7777099609375
         }
     },
     "m_Slots": [
@@ -586,10 +586,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1050.0,
-            "y": 134.99998474121095,
-            "width": 206.0,
-            "height": 129.50001525878907
+            "x": -1039.5555419921875,
+            "y": 153.77777099609376,
+            "width": 207.99993896484376,
+            "height": 312.4444274902344
         }
     },
     "m_Slots": [
@@ -601,7 +601,7 @@
         "location"
     ],
     "m_Precision": 1,
-    "m_PreviewExpanded": false,
+    "m_PreviewExpanded": true,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 2,
     "m_CustomColors": {
@@ -923,13 +923,13 @@
     "m_RefNameGeneratedByDisplayName": "Height",
     "m_DefaultReferenceName": "_Height",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
+    "m_GeneratePropertyBlock": false,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
     "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
+    "overrideHLSLDeclaration": true,
+    "hlslDeclarationOverride": 2,
     "m_Hidden": false,
     "m_PerRendererData": false,
     "m_customAttributes": [],
