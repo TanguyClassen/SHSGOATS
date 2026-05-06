@@ -679,11 +679,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleporterGroup
   destination: {fileID: 1090228903}
-  blizzardEffect1: {fileID: 0}
-  blizzardEffect2: {fileID: 0}
-  blizzardEffect3: {fileID: 0}
-  blizzardEffect4: {fileID: 0}
-  extraDuration: 1
+  blizzardEffect1: {fileID: 995243980}
+  blizzardEffect2: {fileID: 1292837070}
+  blizzardEffect3: {fileID: 1240814724}
+  blizzardEffect4: {fileID: 955268837}
+  extraDuration: 5
   checkDirection: 0
   requiredDirection: {x: 0, y: 0, z: 1}
   angleThreshold: 45
@@ -954,11 +954,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleporterGroup
   destination: {fileID: 991396255}
-  blizzardEffect1: {fileID: 0}
-  blizzardEffect2: {fileID: 0}
-  blizzardEffect3: {fileID: 0}
-  blizzardEffect4: {fileID: 0}
-  extraDuration: 1
+  blizzardEffect1: {fileID: 995243980}
+  blizzardEffect2: {fileID: 1292837070}
+  blizzardEffect3: {fileID: 1240814724}
+  blizzardEffect4: {fileID: 955268837}
+  extraDuration: 5
   checkDirection: 0
   requiredDirection: {x: 0, y: 0, z: 1}
   angleThreshold: 45
@@ -1208,60 +1208,6 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array: []
---- !u!1 &365896717
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 365896718}
-  - component: {fileID: 365896719}
-  m_Layer: 0
-  m_Name: TP1Way
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &365896718
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365896717}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -160.21756, y: 4.73199, z: -151.10446}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1908524154}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &365896719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365896717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a124ccb4df28e7943b5c4c38698834a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TeleporterGroup
-  destination: {fileID: 2117049854}
-  blizzardEffect1: {fileID: 0}
-  blizzardEffect2: {fileID: 0}
-  blizzardEffect3: {fileID: 0}
-  blizzardEffect4: {fileID: 0}
-  extraDuration: 1
-  checkDirection: 1
-  requiredDirection: {x: -1, y: 0, z: 0}
-  angleThreshold: 80
-  destroyAfterUse: 0
 --- !u!1 &369585225
 GameObject:
   m_ObjectHideFlags: 0
@@ -7064,6 +7010,7 @@ Transform:
   - {fileID: 802096043}
   - {fileID: 362907931}
   - {fileID: 1072960446}
+  - {fileID: 2131530163}
   m_Father: {fileID: 369585226}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &857027298
@@ -12453,7 +12400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdafc37f32b176349b1684c4455b98e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ExecuteInEditor: 1
+  m_ExecuteInEditor: 0
   m_Bindings:
   - {fileID: 955268834}
   m_VisualEffect: {fileID: 955268837}
@@ -12513,7 +12460,7 @@ VisualEffect:
   m_GameObject: {fileID: 955268832}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: a14a75b87a081aa419fc4854893fa415, type: 3}
-  m_InitialEventName: Start
+  m_InitialEventName: Stop
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
   m_ResetSeedOnPlay: 1
@@ -13354,11 +13301,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleporterGroup
   destination: {fileID: 991396255}
-  blizzardEffect1: {fileID: 0}
-  blizzardEffect2: {fileID: 0}
-  blizzardEffect3: {fileID: 0}
-  blizzardEffect4: {fileID: 0}
-  extraDuration: 1
+  blizzardEffect1: {fileID: 995243980}
+  blizzardEffect2: {fileID: 1292837070}
+  blizzardEffect3: {fileID: 1240814724}
+  blizzardEffect4: {fileID: 955268837}
+  extraDuration: 5
   checkDirection: 0
   requiredDirection: {x: 0, y: 0, z: 1}
   angleThreshold: 45
@@ -15296,7 +15243,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2005571552}
-  - {fileID: 365896718}
   m_Father: {fileID: 499284225}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1929070434
@@ -15459,11 +15405,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleporterGroup
   destination: {fileID: 2117049854}
-  blizzardEffect1: {fileID: 0}
-  blizzardEffect2: {fileID: 0}
-  blizzardEffect3: {fileID: 0}
-  blizzardEffect4: {fileID: 0}
-  extraDuration: 1
+  blizzardEffect1: {fileID: 995243980}
+  blizzardEffect2: {fileID: 1292837070}
+  blizzardEffect3: {fileID: 1240814724}
+  blizzardEffect4: {fileID: 955268837}
+  extraDuration: 5
   checkDirection: 0
   requiredDirection: {x: 0, y: 0, z: 1}
   angleThreshold: 45
@@ -15782,11 +15728,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleporterGroup
   destination: {fileID: 662510993}
-  blizzardEffect1: {fileID: 0}
-  blizzardEffect2: {fileID: 0}
-  blizzardEffect3: {fileID: 0}
-  blizzardEffect4: {fileID: 0}
-  extraDuration: 1
+  blizzardEffect1: {fileID: 995243980}
+  blizzardEffect2: {fileID: 1292837070}
+  blizzardEffect3: {fileID: 1240814724}
+  blizzardEffect4: {fileID: 955268837}
+  extraDuration: 5
   checkDirection: 0
   requiredDirection: {x: 0, y: 0, z: 1}
   angleThreshold: 45
@@ -16164,6 +16110,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117049853}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2131530162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2131530163}
+  - component: {fileID: 2131530164}
+  m_Layer: 0
+  m_Name: Snow_off_ground (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2131530163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131530162}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 832387303}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2131530164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131530162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fbb15bf92b84f40a1eb030765b5afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.LocalVolumetricFog
+  m_Version: 3
+  parameters:
+    albedo: {r: 1, g: 1, b: 1, a: 1}
+    meanFreePath: 10
+    blendingMode: 1
+    priority: 0
+    anisotropy: 0
+    volumeMask: {fileID: 0}
+    textureScrollingSpeed: {x: 0, y: 0, z: 0}
+    textureTiling: {x: 1, y: 1, z: 1}
+    positiveFade: {x: 0.1, y: 0.1, z: 0.1}
+    negativeFade: {x: 0.1, y: 0.1, z: 0.1}
+    m_EditorUniformFade: 0.1
+    m_EditorPositiveFade: {x: 0.1, y: 0.1, z: 0.1}
+    m_EditorNegativeFade: {x: 0.1, y: 0.1, z: 0.1}
+    m_EditorAdvancedFade: 0
+    scaleMode: 0
+    size: {x: 1, y: 1, z: 1}
+    invertFade: 0
+    distanceFadeStart: 10000
+    distanceFadeEnd: 10000
+    textureOffset: {x: 0, y: 0, z: 0}
+    falloffMode: 0
+    maskMode: 1
+    materialMask: {fileID: 474761548000704790, guid: 9816289044e3e469eb05c0791615b578, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
