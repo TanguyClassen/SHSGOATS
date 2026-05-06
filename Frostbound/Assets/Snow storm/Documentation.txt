@@ -1,0 +1,13 @@
+Snow storm
+
+Currently package works only in HDRP.
+Package includes 4 VFX graphs with different effects required to create beliviable blizzard or a snow storm,
+it also includes a bench, lamp post and a ground mesh.
+
+Bench triangle count and texture size: 8168, 2k
+Lamp post triangle count and texture size: 2894, 2k
+Ground mesh triangle count and texture size: 8325, 2k
+
+Snow particles textures imported with resolution of 2048x2048, but lowered in unity to 256x256 for optimization.
+
+Package also includes one example scene.

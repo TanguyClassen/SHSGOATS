@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 56e85d5dc4d99b24f9b01a6f086bd74d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183394
+  packageName: Snow storm
+  packageVersion: 1.0
+  assetPath: Assets/Snow storm/Scenes/samplescene/LightingData.asset
+  uploadId: 401896
