@@ -4,7 +4,7 @@ using TMPro;
 public class ShowMessage : MonoBehaviour
 {
     public TextMeshProUGUI messageText;
-    public string message = "Voici votre message !";
+    public string message = "Votre message ici";
     public float duration = 3f;
 
     public void Show()

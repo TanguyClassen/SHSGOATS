@@ -13,12 +13,14 @@ public class FootstepSound : MonoBehaviour
     private CharacterController cc;
     private float stepTimer = 0f;
 
-    void Start()
-    {
-        cc = GetComponent<CharacterController>();
-        if (audioSource == null)
-            audioSource = gameObject.AddComponent<AudioSource>();
-    }
+ void Start()
+{
+    cc = GetComponent<CharacterController>();
+    // Utilise l'AudioSource existant, n'en crée pas un nouveau
+    if (audioSource == null)
+        audioSource = gameObject.AddComponent<AudioSource>();
+    audioSource.spatialBlend = 0f;
+}
 
     void Update()
     {
