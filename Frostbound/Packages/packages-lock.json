@@ -284,7 +284,7 @@
       "dependencies": {
         "com.unity.cinemachine": "3.1.6"
       },
-      "hash": "9818761eafb39c5f8602a11a3194780a483009cb"
+      "hash": "926a563e0139f0a71910ddcf76797ab6485befae"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
