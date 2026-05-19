@@ -1,11 +1,13 @@
 using UnityEngine;
+using NarrationsJouables;
 
 public class OpenDoor : MonoBehaviour
 {
     public Animator animator;
     public AudioSource audioSource;
     public AudioClip doorSound;
-    public GameObject highlight; // ← ajoute ça
+    public GameObject highlight;
+    public Collider[] doorColliders;
 
     private bool isOpen = false;
 
@@ -17,9 +19,7 @@ public class OpenDoor : MonoBehaviour
             animator.SetTrigger("Ouvrir");
             if (audioSource != null && doorSound != null)
                 audioSource.PlayOneShot(doorSound);
-
-            // Désactive le highlight après l'ouverture
-            Invoke("DisableHighlight", 1f); // 1f = durée de l'animation
+            Invoke("DisableHighlight", 1f);
             Invoke("DisableColliders", 1f);
         }
     }
@@ -27,13 +27,20 @@ public class OpenDoor : MonoBehaviour
     void DisableHighlight()
     {
         if (highlight != null)
-            highlight.SetActive(false);
+        {
+            // Désactive tous les Mesh Renderers du highlight
+            foreach (MeshRenderer mr in highlight.GetComponentsInChildren<MeshRenderer>())
+                mr.enabled = false;
+        }
+
+        ActionableItem actionable = GetComponent<ActionableItem>();
+        if (actionable != null)
+            actionable.enabled = false;
     }
 
     void DisableColliders()
     {
-        // Désactive les colliders des portes
-        foreach (Collider col in GetComponentsInChildren<Collider>())
+        foreach (Collider col in doorColliders)
             col.enabled = false;
     }
 }
