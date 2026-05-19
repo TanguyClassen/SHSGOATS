@@ -16,7 +16,7 @@ public class Teleporter : MonoBehaviour
     [Range(0f, 180f)]
     public float angleThreshold = 45f;
 
-    private static bool isTeleporting = false;
+    private bool isTeleporting = false;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -52,7 +52,8 @@ public class Teleporter : MonoBehaviour
         if (charController != null)
         {
             charController.enabled = false;
-            other.transform.root.position = destination.position;
+            Debug.Log($"destination {destination.position}");
+            other.transform.position = destination.position;
             charController.enabled = true;
         }
 
