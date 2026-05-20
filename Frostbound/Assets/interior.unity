@@ -5673,6 +5673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Surgery Tools
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1301753a0a7604101810be19a0e61ab9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 945454400225530728, guid: 1301753a0a7604101810be19a0e61ab9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -11331,6 +11335,75 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5796478305813232498, guid: d6de37e1fd8db4a3ea4432721b73c924, type: 3}
+--- !u!1001 &1688208201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6689036041284674117, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_Name
+      value: stuff
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.524
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.987
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -5645937942226959685, guid: f8c038b70ad39463381f63400cdd8836, type: 3}
 --- !u!4 &1689064949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2774220344278030320, guid: 26c85433f125c486f99250dec3abbe02, type: 3}
@@ -11466,7 +11539,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShowMessage
   messageText: {fileID: 1299820862}
-  message: '"...comment il peut faire des carottages sans ses outils ?..."'
+  message: "\"...ces outils ne sont pas cens\xE9s \xEAtre l\xE0...Haze \xE9tait au
+    carottage...\""
   duration: 4
 --- !u!82 &1689064954
 AudioSource:
@@ -15554,3 +15628,4 @@ SceneRoots:
   - {fileID: 1984148903}
   - {fileID: 612330838}
   - {fileID: 243087000}
+  - {fileID: 1688208201}
