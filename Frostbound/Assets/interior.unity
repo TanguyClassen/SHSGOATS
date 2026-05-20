@@ -657,20 +657,24 @@ MonoBehaviour:
   descriptionText: {fileID: 1455998692}
   photoImage: {fileID: 364148126}
   noms:
-  - FROST
+  - FROST (YOU)
   - HAZE
   - CRYO
   descriptions:
-  - "\"...J\u2019arrive \xE0 bout. Tout le monde n\u2019en fait qu\u2019\xE0 sa t\xEAte.
-    On a perdu les communications en plus, la tour radio doit \xEAtre HS. Je vais
-    aller m\u2019en occuper pendant ce temps l\xE0...\""
-  - "\"...Faut vraiment qu\u2019on aille faire les carottages. Plus vite c\u2019est
-    fait, plus t\xF4t on en aura fini. Cryo a le camion, \xE7a ne fait que nous retarder.
-    Je vais partir poser des vivres au port avec l\u2019h\xE9lico pendant qu\u2019il
-    fait ses affaires...\""
-  - "\"...Je prends le camion pour aller r\xE9parer l\u2019h\xE9lico. Les autres
-    ne sont pas d\u2019accords, ils commencent \xE0 me fatiguer avec leur obstination
-    pour les carottages...\""
+  - "\"...J'arrive \xE0 bout. Le froid, l'isolement, et les autres qui disparaissent
+    dans leurs propres priorit\xE9s. Cryo a pris le camion pour aller je ne sais
+    o\xF9, Haze est parti avec l'h\xE9lico d\xE9poser des vivres au port. Moi je
+    reste l\xE0 avec mes carottes de neige et une radio qui ne r\xE9pond plus. Je
+    vais aller r\xE9gler \xE7a.\""
+  - "\"...Faut vraiment qu'on aille faire les carottages. Plus vite c'est fait, plus
+    t\xF4t on en aura fini. Frost s'occupe de la radio, c'est d\xE9j\xE0 \xE7a. Cryo
+    a le camion, \xE7a ne fait que nous retarder. Je vais partir poser des vivres
+    au port avec l'h\xE9lico pendant qu'il fait ses affaires \u2014 au moins le port
+    sera ravitaill\xE9 si on doit \xE9vacuer.\""
+  - "\"...Frost a raison sur un point \u2014 les carottages d'abord. Haze a pris
+    l'h\xE9lico, moi je garde le v\xE9hicule au chaud. De toute fa\xE7on Frost g\xE8re
+    la radio, c'est son truc. Je vais mettre les provisions \xE0 l'abri pendant ce
+    temps, au moins \xE7a servira \xE0 quelque chose si le temps empire.\""
   photos:
   - {fileID: 21300000, guid: 639d2c8ad07644916b59aa606223975e, type: 3}
   - {fileID: 21300000, guid: e134fa961ee244b15b5399f742441c2c, type: 3}
