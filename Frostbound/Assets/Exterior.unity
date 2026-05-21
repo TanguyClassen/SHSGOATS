@@ -7179,6 +7179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed_minecraft highlight
       objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: 61f9e490faa9a45c6a39bb167c10f3aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -2858115458917893714, guid: 61f9e490faa9a45c6a39bb167c10f3aa, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -27267,7 +27271,7 @@ Transform:
   m_GameObject: {fileID: 967409428}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.41963345, z: -0, w: 0.9076937}
-  m_LocalPosition: {x: 58.003513, y: 2.96801, z: 135.56807}
+  m_LocalPosition: {x: 51.6, y: -3, z: 130.1}
   m_LocalScale: {x: 350, y: 50, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28755,7 +28759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6689036041284674117, guid: 3f9095874ddb0449f8a38fff38b2d93f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4999838443593966206, guid: 3f9095874ddb0449f8a38fff38b2d93f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -30424,8 +30428,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.3507462, y: 4.073887, z: 1.8451447}
-  m_Center: {x: -0.5519371, y: -0.13596916, z: 0.42257237}
+  m_Size: {x: 2.3734818, y: 4.073887, z: 1.8075104}
+  m_Center: {x: -0.5633049, y: -0.13596916, z: 0.4037552}
 --- !u!114 &1152083978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31186,8 +31190,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 530.0703, y: 229.5814, z: 310.32324}
-  m_Center: {x: 4.313755, y: -60.74631, z: 52.011612}
+  m_Size: {x: 530.0703, y: 633.023, z: 310.32324}
+  m_Center: {x: 4.313755, y: -19.273508, z: 52.011612}
 --- !u!114 &1178309045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32925,7 +32929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0141dbafa04948fbada3a468c57ab3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 163.9
+      value: 161.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0141dbafa04948fbada3a468c57ab3d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -32933,7 +32937,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0141dbafa04948fbada3a468c57ab3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 45.7
+      value: 63.84
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0141dbafa04948fbada3a468c57ab3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -41332,8 +41336,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.40975136, y: 1.079801, z: 0.47563744}
-  m_Center: {x: 0.17483339, y: 0.039900545, z: -0.26218128}
+  m_Size: {x: 0.40975136, y: 3.0822423, z: 2.7103024}
+  m_Center: {x: 0.17483307, y: -0.96132225, z: 0.055715084}
 --- !u!4 &1767464105 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2774220344278030320, guid: a04c31f7592f74517990e50ea2eba7b5, type: 3}
